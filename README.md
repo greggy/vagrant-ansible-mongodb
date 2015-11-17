@@ -6,15 +6,15 @@ Just a little vm that gets you up and running with mongoDB in a few minutes. I u
 
 1. Install vagrant hostsupdater plugin
 
-    vagrant plugin install vagrant-hostsupdater
+    $ vagrant plugin install vagrant-hostsupdater
 
 2. Install ansible to your local machine
 
-    pip install ansible
+    $ pip install ansible
 
 3. Start the machine
 
-    vagrant up
+    $ vagrant up
 
 And that's it! 
 
