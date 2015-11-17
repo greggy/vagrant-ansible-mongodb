@@ -1,0 +1,24 @@
+locale: en_US.UTF-8
+
+mongo:
+  repo: "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse"
+  key_server: hkp://keyserver.ubuntu.com:80 
+  key_id: 7F0CEB10
+
+  database: bongo
+  user: bongo
+  password: bongo
+
+  admin_user: myAdmin
+  admin_password: myPassword
+
+# be aware, when you're activating authorization, for example robomongo will stop working 
+# due to the changes in mongodbs auth module
+  authorization: no
+
+  config:
+    port: 27017
+    listen: '0.0.0.0'
+
+required_packages:
+    - python-pip
