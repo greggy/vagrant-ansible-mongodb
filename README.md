@@ -1,6 +1,6 @@
-# Vagrant Box with MongoDB installed - provisioned with ansible
+# Vagrant-MongoDB - provisioned with ansible
 
-Just a little vm that gets you up and running with mongoDB. I use this box to train my mongoDB skills.
+Just a little vm that gets you up and running with mongoDB in a few minutes. I use this box to train my mongoDB skills.
 
 ## How to get started? 
 
