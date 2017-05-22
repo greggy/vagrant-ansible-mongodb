@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
   config.vm.define "mongo" do |mongo|
         mongo.vm.box = "ubuntu/trusty64"
         mongo.vm.hostname  = "mongo.loc"
-        mongo.vm.network :private_network, ip: "192.168.33.151"
+        mongo.vm.network :public_network, ip: "192.168.1.123"
 
         mongo.vm.provision :ansible do |ansible|
             ansible.playbook = "provisioning/playbook.yml"
